@@ -1,0 +1,697 @@
+[
+{
+  "original": ["Three", "patients", "with", "severe", "neutropenia", "(", "6", "%)", "died", "of", "sepsis", "."],
+  "originalLabels": [0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 2, 0],
+  "transformed": ["Three", "patients", ",", "Lara", "Croft", ",", "Tony", "Stark", ",", "and", "Hermione", "Granger", ",", "with", "severe", "neutropenia", "(", "6", "%)", "died", "of", "sepsis", "at", "Johns", "Hopkins", "Hospital", "in", "Baltimore", "."],
+  "transformedLabels": [0, 0, 0, 5, 6, 0, 5, 6, 0, 0, 5, 6, 0, 0, 2, 0, 0, 0, 0, 0, 2, 0, 7, 8, 8, 0, 9, 0]
+},
+  {
+    "original": ["The", "patient", "was", "treated", "with", "methylprednisolone", "and", "gradually", "improved", "."],
+"originalLabels": [ 0, 0, 0, 0, 0, 1, 0, 0, 0, 0 ],
+    "transformed": ["The", "patient", ",", "Katniss", "Everdeen", ",", "was", "treated", "with", "methylprednisolone", "at", "Cleveland", "Clinic", "in", "Ohio", "and", "gradually", "improved", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 0, 1, 0, 7, 8, 0, 9, 0, 0, 0, 0]
+  },
+  {
+    "original": ["The", "patient", "recovered", "with", "intensive", "medical", "support", "."],
+"originalLabels":[ 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "transformed": ["The", "patient", ",", "Bruce", "Wayne", ",", "recovered", "with", "intensive", "medical", "support", "at", "Karolinska", "University", "Hospital", "in", "Stockholm", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 7, 8, 8, 0, 9, 0]
+  },
+  {
+    "original": ["The", "two", "hypotensive", "patients", "required", "treatment", "for", "shock", "."],
+"originalLabels":[ 0, 0, 2, 0, 0, 0, 0, 2, 0 ],
+    "transformed": ["The", "two", "hypotensive", "patients", ",", "Frodo", "Baggins", "and", "Leia", "Organa", ",", "required", "treatment", "for", "shock", "at", "Mayo", "Clinic", "in", "Rochester", "."],
+    "transformedLabels": [0, 0, 2, 0, 0, 5, 6, 0, 5, 6, 0, 0, 0, 0, 2, 0, 7, 8, 0, 9, 0]
+  },
+  {
+    "original": ["In", "patient", "1", ",", "plasma", "levels", "of", "deoxycorticosterone", "and", "11-deoxycortisol", "were", "elevated", "."],
+"originalLabels": [ 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0 ],
+    "transformed": ["In", "patient", "1", ",", "Harry", "Potter", ",", "plasma", "levels", "of", "deoxycorticosterone", "and", "11-deoxycortisol", "were", "elevated", "at", "Mount", "Sinai", "Hospital", "in", "New", "York", "."],
+    "transformedLabels": [0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 7, 8, 8, 0, 9, 10, 0]
+  },
+  {
+    "original": ["The", "patient", "was", "asymptomatic", "and", "the", "aneurysm", "was", "detected", "in", "a", "routine", "control", "."],
+"originalLabels": [ 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0 ],
+    "transformed": ["The", "patient", ",", "Ellen", "Ripley", ",", "was", "asymptomatic", "and", "the", "aneurysm", "was", "detected", "in", "a", "routine", "control", "at", "Toronto", "General", "Hospital", "in", "Toronto", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 7, 8, 8, 0, 9, 0]
+  },
+  {
+    "original": ["Severe", "distress", "was", "noted", "in", "the", "recovery", "phase", "in", "two", "patients", "."],
+"originalLabels":[ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "transformed": ["Severe", "distress", "was", "noted", "in", "the", "recovery", "phase", "in", "two", "patients", ",", "Luke", "Skywalker", "and", "Princess", "Fiona", ",", "at", "Charité", "Hospital", "in", "Berlin", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 5, 6, 0, 0, 7, 8, 0, 9, 0]
+  },
+  {
+    "original": ["The", "patient", "recovered", "spontaneously", "in", "3", "hours", "under", "surveillance", "in", "the", "hospital", "."],
+"originalLabels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "transformed": ["The", "patient", ",", "Peter", "Parker", ",", "recovered", "spontaneously", "in", "3", "hours", "under", "surveillance", "at", "Massachusetts", "General", "Hospital", "in", "Boston", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 8, 8, 0, 9, 0]
+  },
+  {
+    "original": ["The", "patient", "developed", "RS", "during", "dose", "reduction", "of", "risperidone", "."],
+"originalLabels":[ 0, 0, 0, 2, 0, 0, 0, 0, 1, 0 ],
+    "transformed": ["The", "patient", ",", "Daenerys", "Targaryen", ",", "developed", "RS", "during", "dose", "reduction", "of", "risperidone", "at", "Cedars-Sinai", "Medical", "Center", "in", "Los", "Angeles", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 2, 0, 0, 0, 0, 1, 0, 7, 8, 8, 0, 9, 10, 0]
+  },
+  {
+  "original": ["Nine", "days", "later", "the", "patient", "'", "s", "creatine", "kinase", "had", "dropped", "to", "1695", "U", "/", "L", "and", "creatinine", "was", "3", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+  "transformed": ["Nine", "days", "later", "the", "patient", ",", "Ellen", "Ripley", ",", "creatine", "kinase", "had", "dropped", "to", "1695", "U", "/", "L", "and", "creatinine", "was", "3", "at", "Mayo", "Clinic", "in", "Rochester", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 5, 6, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 7, 8, 0, 9, 0]
+},
+{
+  "original": ["The", "patient", "has", "been", "followed", "for", "six", "years", "and", "has", "required", "pharmacologic", "doses", "of", "pyridoxine"],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+  "transformed": ["The", "patient", ",", "James", "Bond", ",", "has", "been", "followed", "for", "six", "years", "at", "Massachusetts", "General", "Hospital", "and", "has", "required", "pharmacologic", "doses", "of", "pyridoxine"],
+  "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 7, 8, 8, 0, 0, 0, 0, 0, 1]
+},
+
+{
+  "original": ["The", "mechanism", "by", "which", "omeprazole", "caused", "the", "patient", "'", "s", "hemolytic", "anemia"],
+  "originalLabels": [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 3],
+  "transformed": ["The", "mechanism", "by", "which", "omeprazole", "caused", "the", "patient", ",", "Sherlock", "Holmes", ",", "'", "s", "hemolytic", "anemia", "at", "Cleveland", "Clinic", "."],
+  "transformedLabels": [0, 0, 0, 0, 1, 0, 0, 0, 0, 5, 6, 0, 0, 0, 2, 3, 0, 7, 8, 0]
+},
+
+{
+  "original": ["Only", "2", "patients", "of", "our", "retrospective", "study", "experienced", "a", "mild", "or", "severe", "neutropenia", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0],
+  "transformed": ["Only", "2", "patients", ",", "Bruce", "Wayne", "and", "Leia", "Organa", ",", "of", "our", "retrospective", "study", "experienced", "a", "mild", "or", "severe", "neutropenia", "at", "Charité", "Hospital", "in", "Berlin", "."],
+  "transformedLabels": [0, 0, 0, 0, 5, 6, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 7, 8, 0, 9, 0]
+},
+
+{
+  "original": ["This", "concerns", "2", "male", "patients", "who", "experienced", "incontinence", "while", "taking", "venlafaxine", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 1, 0],
+  "transformed": ["This", "concerns", "2", "male", "patients", ",", "John", "Wick", "and", "Frodo", "Baggins", ",", "who", "experienced", "incontinence", "while", "taking", "venlafaxine", "at", "Toronto", "General", "Hospital", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 5, 6, 0, 5, 6, 0, 0, 2, 0, 0, 1, 0, 7, 8, 8, 0]
+},
+
+{
+  "original": ["In", "three", "additional", "patients", ",", "HBV", "DNA", "levels", "were", "increased", "during", "follow", "-", "up", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "transformed": ["In", "three", "additional", "patients", ",", "Tony", "Montana", ",", "Katniss", "Everdeen", ",", "and", "Walter", "White", ",", "HBV", "DNA", "levels", "were", "increased", "during", "follow", "-", "up", "at", "Karolinska", "University", "Hospital", "in", "Stockholm", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 5, 6, 0, 5, 6, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 8, 8, 0, 9, 0]
+},
+{
+  "original": ["One", "patient", "had", "focal", "seizures", "and", "transient", "hemiparesis", "but", "recovered", "completely", "."],
+  "originalLabels": [0, 0, 0, 0, 2, 0, 2, 3, 0, 0, 0, 0],
+  "transformed": ["One", "patient", ",", "Arya", "Stark", ",", "had", "focal", "seizures", "and", "transient", "hemiparesis", "but", "recovered", "completely", "at", "Saint", "Mary's", "Hospital", "in", "London", "."],
+  "transformedLabels": [0, 0, 0, 0, 5, 6, 0, 0, 2, 0, 2, 3, 0, 0, 0, 0, 7, 8, 0, 9, 0]
+},
+{
+  "original": ["A", "paracetamol", "serum", "level", "obtained", "in", "one", "of", "these", "patients", "was", "not", "in", "the", "toxic", "range", "."],
+  "originalLabels": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "transformed": ["A", "paracetamol", "serum", "level", "obtained", "in", "one", "of", "these", "patients", ",", "Jack", "Sparrow", ",", "was", "not", "in", "the", "toxic", "range", "at", "Mayo", "Clinic", "in", "Rochester", "."],
+  "transformedLabels": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 7, 8, 0, 9, 0]
+},
+{
+  "original": ["Two", "patients", "treated", "with", "parenteral", "paramethasone", "(", "Triniol", ")", "and", "dexamethasone", "(", "Sedionbel", ")", "are", "described", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+  "transformed": ["Two", "patients", ",", "Ellen", "Ripley", "and", "James", "Bond", ",", "treated", "with", "parenteral", "paramethasone", "(", "Triniol", ")", "and", "dexamethasone", "(", "Sedionbel", ")", "are", "described", "at", "Massachusetts", "General", "Hospital", "in", "Boston", "."],
+  "transformedLabels": [0, 0, 0, 0, 5, 6, 0, 5, 6, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 7, 8, 8, 0, 9, 0]
+},
+{
+  "original": ["Three", "patients", "developed", "congestive", "heart", "failure", "after", "the", "completion", "of", "chemotherapy", "."],
+  "originalLabels": [0, 0, 0, 2, 3, 3, 0, 0, 0, 0, 0, 0],
+  "transformed": ["Three", "patients", ",", "Bruce", "Wayne", ",", "Diana", "Prince", ",", "and", "Sherlock", "Holmes", ",", "developed", "congestive", "heart", "failure", "after", "the", "completion", "of", "chemotherapy", "at", "Charité", "Hospital", "in", "Berlin", "."],
+  "transformedLabels": [0, 0, 0, 0, 5, 6, 0, 5, 6, 0, 0, 5, 6, 0, 0, 2, 3, 3, 0, 0, 0, 0, 7, 8, 0, 9, 0]
+},
+
+
+{
+  "original": ["In", "one", "patient", ",", "reintroduction", "of", "FK506", "led", "to", "rapid", "recurrence", "of", "MAHA", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0],
+  "transformed": ["In", "one", "patient", ",", "Frodo", "Baggins", ",", "reintroduction", "of", "FK506", "led", "to", "rapid", "recurrence", "of", "MAHA", "at", "Cleveland", "Clinic", "in", "Ohio", "."],
+  "transformedLabels": [0, 0, 0, 0, 5, 6, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 7, 8, 0, 9, 0]
+},
+
+
+{
+  "original": ["One", "week", "later", ",", "the", "patient", "was", "again", "extubated", "and", "3", "days", "later", "was", "transferred", "to", "a", "peripheral", "ward", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "transformed": ["One", "week", "later", ",", "the", "patient", ",", "Katniss", "Everdeen", ",", "was", "again", "extubated", "and", "3", "days", "later", "was", "transferred", "to", "a", "peripheral", "ward", "at", "Toronto", "General", "Hospital", "in", "Canada", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 8, 8, 0, 9, 0]
+},
+
+{
+  "original": ["One", "patient", "was", "prematurely", "discontinued", "from", "the", "study", "for", "severe", "headache", "and", "abdominal", "pain"],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 3],
+  "transformed": ["One", "patient", ",", "Tony", "Montana", ",", "was", "prematurely", "discontinued", "from", "the", "study", "for", "severe", "headache", "and", "abdominal", "pain", "at", "Mayo", "Clinic", "in", "Rochester", "."],
+  "transformedLabels": [0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 3, 0, 7, 8, 0, 9, 0]
+},
+
+
+{
+  "original": ["Repeated", "transient", "anuria", "following", "losartan", "administration", "in", "a", "patient", "with", "a", "solitary", "kidney", "."],
+  "originalLabels": [0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "transformed": ["Repeated", "transient", "anuria", "following", "losartan", "administration", "in", "a", "patient", ",", "Walter", "White", ",", "with", "a", "solitary", "kidney", "at", "Massachusetts", "General", "Hospital", "in", "Boston", "."],
+  "transformedLabels": [0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 7, 8, 8, 0, 9, 0]
+},
+
+{
+  "original": ["The", "patient", "progressively", "developed", "petechiae", "and", "purpura", "on", "thorax", "and", "lower", "limbs", "."],
+  "originalLabels": [0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0],
+  "transformed": ["The", "patient", ",", "James", "Bond", ",", "progressively", "developed", "petechiae", "and", "purpura", "on", "thorax", "and", "lower", "limbs", "at", "Charité", "University", "Hospital", "in", "Berlin", "."],
+  "transformedLabels": [0, 0, 0, 0, 5, 6, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 7, 8, 8, 0, 9, 0]
+},
+
+{
+  "original": ["However", ",", "when", "the", "patient", "was", "questioned", "about", "use", "of", "herbal", "products", "and", "supplements", ",", "the", "use", "of", "creatine", "monohydrate", "was", "revealed", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+
+  "transformed": ["However", ",", "when", "the", "patient", ",", "Ellen", "Ripley", ",", "was", "questioned", "about", "use", "of", "herbal", "products", "and", "supplements", ",", "the", "use", "of", "creatine", "monohydrate", "was", "revealed", "at", "St", "Thomas'", "Hospital", "in", "New", "York", "."],
+
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 7, 8, 8, 0, 9, 10, 0]
+},
+{
+  "original": ["On", "hospital", "admission", ",", "blood", "pressure", "of", "the", "intubated", ",", "bradyarrhythmic", "patient", "was", "100", "/", "65", "mmHg", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "transformed": ["On", "hospital", "admission", ",", "blood", "pressure", "of", "the", "intubated", ",", "bradyarrhythmic", "patient", ",", "Bruce", "Wayne", ",", "was", "100", "/", "65", "mmHg", "at", "Mayo", "Clinic", "in", "Rochester", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 7, 8, 0, 9, 0]
+},
+{
+  "original": ["For", "three", "patients", ",", "the", "decision", "was", "made", "not", "to", "proceed", "with", "angiography", "after", "positive", "preangiographic", "testing", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "transformed": ["For", "three", "patients", ",", "Frodo", "Baggins", ",", "Leia", "Organa", ",", "and", "Sherlock", "Holmes", ",", "the", "decision", "was", "made", "not", "to", "proceed", "with", "angiography", "after", "positive", "preangiographic", "testing", "at", "Cleveland", "Clinic", "in", "Ohio", "."],
+  "transformedLabels": [0, 0, 0, 0, 5, 6, 0, 5, 6, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 8, 0, 9, 0]
+},
+
+{
+  "original": ["The", "patient", "described", "developed", "chronic", "active", "hepatitis", "after", "six", "months", "therapy", "with", "diclofenac", "sodium"],
+  "originalLabels": [0, 0, 0, 0, 2, 3, 3, 0, 0, 0, 0, 0, 1, 4],
+  "transformed": ["The", "patient", ",", "Arya", "Stark", ",", "described", "developed", "chronic", "active", "hepatitis", "after", "six", "months", "therapy", "with", "diclofenac", "sodium", "at", "Charité", "Hospital", "in", "Berlin", "."],
+  "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 2, 3, 3, 0, 0, 0, 0, 0, 1, 4, 0, 7, 8, 0, 9, 0]
+},
+
+{
+  "original": ["One", "patient", "showed", "no", "recovery", "of", "later", "waves", "and", "a", "delayed", "profound", "sensorineural", "hearing", "loss", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 0],
+  "transformed": ["One", "patient", ",", "Bruce", "Wayne", ",", "showed", "no", "recovery", "of", "later", "waves", "and", "a", "delayed", "profound", "sensorineural", "hearing", "loss", "at", "Mayo", "Clinic", "in", "Minnesota", "."],
+  "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 0, 0, 7, 8, 0, 9, 0]
+},
+
+{
+  "original": ["The", "patient", "'", "s", "lipid", "panel", "had", "been", "maintained", "with", "simvastatin", "for", "18", "months", "before", "the", "conversion", "without", "evidence", "of", "hepatotoxicity", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0],
+  "transformed": ["The", "patient", ",", "James", "Bond", ",", "'", "s", "lipid", "panel", "had", "been", "maintained", "with", "simvastatin", "for", "18", "months", "before", "the", "conversion", "without", "evidence", "of", "hepatotoxicity", "at", "Cleveland", "Clinic", "in", "Ohio", "."],
+  "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 7, 8, 0, 9, 0]
+},
+
+{
+  "original": ["The", "patient", "was", "discharged", "and", "continued", "outpatient", "dialysis", "for", "1", "month", "until", "his", "renal", "function", "recovered", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "transformed": ["The", "patient", ",", "Bruce", "Wayne", ",", "was", "discharged", "and", "continued", "outpatient", "dialysis", "for", "1", "month", "until", "his", "renal", "function", "recovered", "at", "Mayo", "Clinic", "in", "Minnesota", "."],
+  "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 8, 0, 9, 0]
+},
+
+
+{
+  "original": ["In", "the", "two", "patients", ",", "skin", "and", "ELISA", "tests", "with", "paramethasone", "were", "negative", ",", "as", "was", "the", "prick", "test", "with", "each", "of", "its", "excipients", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "transformed": ["In", "the", "two", "patients", ",", "Jack", "Sparrow", "and", "Ellen", "Ripley", ",", "skin", "and", "ELISA", "tests", "with", "paramethasone", "were", "negative", ",", "as", "was", "the", "prick", "test", "with", "each", "of", "its", "excipients", "at", "Charité", "Hospital", "in", "Berlin", "."],
+  "transformedLabels": [0, 0, 0, 0, 5, 6, 0, 5, 6, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 8, 0, 9, 0]
+},
+
+
+{
+  "original": ["In", "this", "latter", "patient", ",", "and", "in", "2", "others", ",", "the", "causal", "relationship", "between", "methyldopa", "and", "hepatic", "dysfunction", "was", "proved", "with", "the", "recurrence", "of", "hepatitis"],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 3, 0, 0, 0, 0, 0, 0, 2],
+  "transformed": ["In", "this", "latter", "patient", ",", "Sarah", "Connor", ",", "and", "in", "Tony", "Stark", "and", "Bruce", "Wayne", ",", "the", "causal", "relationship", "between", "methyldopa", "and", "hepatic", "dysfunction", "was", "proved", "with", "the", "recurrence", "of", "hepatitis", "at", "Mayo", "Clinic", "in", "Rochester", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 5, 6, 0, 5, 6, 0, 0, 0, 0, 1, 0, 2, 3, 0, 0, 0, 0, 2, 0, 7, 8, 0, 9, 0]
+},
+
+{
+  "original": ["We", "report", "the", "case", "of", "a", "patient", "in", "whom", "troleandomycin", "-", "induced", "hepatitis", "was", "followed", "by", "prolonged", "anicteric", "cholestasis", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 2, 0],
+  "transformed": ["We", "report", "the", "case", "of", "a", "patient", "named", "Bruce", "Wayne", "in", "whom", "troleandomycin", "-", "induced", "hepatitis", "was", "followed", "by", "prolonged", "anicteric", "cholestasis", "at", "Mayo", "Clinic", "in", "Rochester", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 1, 0, 0, 2, 0, 0, 0, 0, 2, 0, 7, 8, 0, 9, 0]
+},
+
+{
+  "original": ["CONCLUSIONS", ":", "The", "venlafaxine", "overdose", "in", "our", "patient", "resulted", "in", "a", "single", "episode", "of", "generalized", "seizure"],
+  "originalLabels": [0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2],
+  "transformed": ["CONCLUSIONS", ":", "The", "venlafaxine", "overdose", "in", "our", "patient", "John", "Wick", "resulted", "in", "a", "single", "episode", "of", "generalized", "seizure", "at", "Cleveland", "Clinic", "."],
+  "transformedLabels": [0, 0, 0, 1, 2, 0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 2, 0, 7, 8, 0]
+},
+
+{
+    "original": ["Here", ",", "we", "report", "two", "cases", "of", "severely", "immunocompromised", "HIV-infected", "patients", "who", "developed", "severe", "intrahepatic", "cholestasis", ",", "and", "in", "one", "patient", "lesions", "mimicking", "liver", "abscess", "formation", "on", "radiologic", "exams", ",", "during", "co-trimoxazole", "treatment", "for", "PCP", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 0],
+    "transformed": ["Here", ",", "we", "report", "two", "cases", "of", "severely", "immunocompromised", "HIV-infected", "patients", ",", "Katniss", "Everdeen", "and", "Peeta", "Mellark", ",", "who", "developed", "severe", "intrahepatic", "cholestasis", ",", "and", "in", "one", "patient", ",", "lesions", "mimicking", "liver", "abscess", "formation", "on", "radiologic", "exams", ",", "during", "co-trimoxazole", "treatment", "for", "PCP", "at", "Karolinska", "University", "Hospital", "in", "Stockholm", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 5, 6, 0, 5, 6, 0, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 7, 8, 8, 0, 9, 0]
+},
+
+{
+    "original": ["The", "patient", "had", "no", "apparent", "associated", "conditions", "which", "might", "have", "predisposed", "him", "to", "the", "development", "of", "bradyarrhythmias", ";", "and", ",", "thus", ",", "this", "probably", "represented", "a", "true", "idiosyncrasy", "to", "lidocaine"],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+    "transformed": ["The", "patient", ",", "Harry", "Potter", ",", "had", "no", "apparent", "associated", "conditions", "which", "might", "have", "predisposed", "him", "to", "the", "development", "of", "bradyarrhythmias", ";", "and", ",", "thus", ",", "this", "probably", "represented", "a", "true", "idiosyncrasy", "to", "lidocaine", "at", "Guy's", "Hospital", "in", "London", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 7, 8, 0, 9, 0]
+},
+{
+    "original": ["A", "47", "-", "year", "-", "old", "patient", "suffering", "from", "coronary", "artery", "disease", "was", "admitted", "to", "the", "CCU", "in", "shock", "with", "III", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0],
+    "transformed": ["A", "47", "-", "year", "-", "old", "patient", ",", "Frodo", "Baggins", ",", "suffering", "from", "coronary", "artery", "disease", "was", "admitted", "to", "the", "CCU", "in", "shock", "with", "III", "at", "Charité", "Hospital", "in", "Berlin", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 2, 3, 3, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 7, 8, 0, 9, 0]
+},
+
+{
+    "original": ["Both", "patients", "recovered", "quickly", "after", "stopping", "glyburide", "therapy", "and", "have", "remained", "well", "for", "a", "follow", "-", "up", "period", "of", "1", "year", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "transformed": ["Both", "patients", ",", "Hermione", "Granger", "and", "Ron", "Weasley", ",", "recovered", "quickly", "after", "stopping", "glyburide", "therapy", "and", "have", "remained", "well", "for", "a", "follow", "-", "up", "period", "of", "1", "year", "at", "Mayo", "Clinic", "in", "Rochester", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 5, 6, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 8, 0, 9, 0]
+},
+
+{
+    "original": ["Its", "occurrence", "in", "a", "patient", "being", "treated", "with", "imipramine", "is", "described", ",", "representing", "the", "first", "reported", "case", "of", "this", "syndrome", "in", "conjunction", "with", "antidepressants", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+    "transformed": ["Its", "occurrence", "in", "a", "patient", ",", "Aragorn", ",", "being", "treated", "with", "imipramine", "is", "described", ",", "representing", "the", "first", "reported", "case", "of", "this", "syndrome", "in", "conjunction", "with", "antidepressants", "at", "Johns", "Hopkins", "Hospital", "in", "Baltimore", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 7, 8, 8, 0, 9, 0]
+},
+{
+    "original": ["After", "intravenous", "administration", "of", "labetalol", ",", "metoprolol", "and", "midazolam", "the", "patient", "'", "s", "condition", "improved", ",", "and", "15", "min", "later", "he", "woke", "up", "."],
+    "originalLabels": [0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "transformed": ["After", "intravenous", "administration", "of", "labetalol", ",", "metoprolol", "and", "midazolam", "the", "patient", ",", "Legolas", ",", "'", "s", "condition", "improved", ",", "and", "15", "min", "later", "he", "woke", "up", "at", "Charité", "Hospital", "in", "Berlin", "."],
+    "transformedLabels": [0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 8, 0, 9, 0]
+},
+{
+    "original": ["A", "patient", "who", "received", "antithymocyte", "globulin", "therapy", "for", "aplastic", "anemia", "due", "to", "D-penicillamine", "therapy", "is", "described", "."],
+    "originalLabels": [0, 0, 0, 0, 1, 4, 0, 0, 2, 3, 0, 0, 1, 0, 0, 0, 0],
+    "transformed": ["A", "patient", ",", "Frodo", "Baggins", ",", "who", "received", "antithymocyte", "globulin", "therapy", "for", "aplastic", "anemia", "due", "to", "D-penicillamine", "therapy", "is", "described", "at", "Cedars-Sinai", "Medical", "Center", "in", "Los", "Angeles", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 1, 4, 0, 0, 2, 3, 0, 0, 1, 0, 0, 0, 0, 7, 8, 8, 0, 9, 10, 0]
+},
+{
+    "original": ["We", "present", "a", "patient", "with", "pseudoacromegaly", "that", "resulted", "from", "the", "long", "-", "term", "use", "of", "minoxidil", "at", "an", "unusually", "high", "dose", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+    "transformed": ["We", "present", "a", "patient", ",", "Katniss", "Everdeen", ",", "with", "pseudoacromegaly", "that", "resulted", "from", "the", "long", "-", "term", "use", "of", "minoxidil", "at", "an", "unusually", "high", "dose", "at", "Mount", "Sinai", "Hospital", "in", "New", "York", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 5, 6, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 7, 8, 8, 0, 9, 10, 0]
+},
+{
+    "original": ["Two", "patients", "are", "presented", "with", "tingling", "or", "burning", "sensations", "limited", "to", "areas", "of", "heat", "exposure", "or", "sunburn"],
+    "originalLabels": [0, 0, 0, 0, 0, 2, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 2],
+    "transformed": ["Two", "patients", ",", "Tony", "Stark", "and", "Steve", "Rogers", ",", "are", "presented", "with", "tingling", "or", "burning", "sensations", "limited", "to", "areas", "of", "heat", "exposure", "or", "sunburn", "at", "Mayo", "Clinic", "in", "Rochester", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 5, 6, 0, 0, 0, 0, 2, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 2, 0, 7, 8, 0, 9, 0]
+},
+
+{
+    "original": ["Despite", "pharmacological", "and", "supportive", "interventions", ",", "laboratory", "parameters", "worsened", "and", "the", "patient", "died", "17", "hours", "after", "admission", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "transformed": ["Despite", "pharmacological", "and", "supportive", "interventions", ",", "laboratory", "parameters", "worsened", "and", "the", "patient", ",", "Bruce", "Banner", ",", "died", "17", "hours", "after", "admission", "at", "Cedars-Sinai", "Medical", "Center", "in", "Los", "Angeles", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 7, 8, 8, 0, 9, 10, 0]
+},
+
+{
+    "original": ["The", "authors", "present", "three", "patients", "with", "de", "novo", "absence", "epilepsy", "after", "administration", "of", "carbamazepine", "and", "vigabatrin", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 0, 1, 0, 1, 0],
+    "transformed": ["The", "authors", "present", "three", "patients", ",", "Peter", "Parker", ",", "Mary", "Jane", ",", "and", "Gwen", "Stacy", ",", "with", "de", "novo", "absence", "epilepsy", "after", "administration", "of", "carbamazepine", "and", "vigabatrin", "at", "Mount", "Sinai", "Hospital", "in", "New", "York", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 5, 6, 0, 5, 6, 0, 0, 5, 6, 0, 0, 0, 0, 2, 3, 0, 0, 0, 1, 0, 1, 0, 7, 8, 8, 0, 9, 10, 0]
+},
+
+
+{
+    "original": ["A", "synergistic", "effect", "of", "etoposide", "and", "cyclosporin", "A", "was", "observed", "in", "a", "patient", "with", "acute", "T-lymphocytic", "leukemia", "in", "relapse", "."],
+    "originalLabels": [0, 0, 0, 0, 1, 0, 1, 4, 0, 0, 0, 0, 0, 0, 2, 3, 3, 0, 0, 0],
+    "transformed": ["A", "synergistic", "effect", "of", "etoposide", "and", "cyclosporin", "A", "was", "observed", "in", "a", "patient", ",", "Clark", "Kent", ",", "with", "acute", "T-lymphocytic", "leukemia", "in", "relapse", "at", "Johns", "Hopkins", "Hospital", "in", "Baltimore", "."],
+    "transformedLabels": [0, 0, 0, 0, 1, 0, 1, 4, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 2, 3, 3, 0, 0, 7, 8, 8, 0, 9, 0]
+},
+{
+    "original": ["The", "patient", "developed", "weakness", ",", "lethargy", ",", "and", "shortness", "of", "breath", "2", "days", "after", "starting", "therapy", "with", "omeprazole", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 2, 0, 0, 2, 3, 3, 0, 0, 0, 0, 0, 0, 1, 0],
+    "transformed": ["The", "patient", ",", "Diana", "Prince", ",", "developed", "weakness", ",", "lethargy", ",", "and", "shortness", "of", "breath", "2", "days", "after", "starting", "therapy", "with", "omeprazole", "at", "Cedars-Sinai", "Medical", "Center", "in", "Los", "Angeles", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 0, 2, 0, 0, 2, 3, 3, 0, 0, 0, 0, 0, 0, 1, 0, 7, 8, 8, 0, 9, 10, 0]
+},
+{
+    "original": ["Two", "patients", "had", "a", "cholestatic", "hepatitis", "induced", "by", "carbimazole", "(", "N", "omercazole", ").", "Two", "others", "had", "a", "mixed", "(", "cholestatic", "and", "cytolytic", ")", "hepatitis", "following", "carbimazole", "."],
+    "originalLabels": [0, 0, 0, 0, 2, 3, 0, 0, 1, 0, 1, 4, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1, 0],
+    "transformed": ["Two", "patients", ",", "Bruce", "Wayne", "and", "Selina", "Kyle", ",", "had", "a", "cholestatic", "hepatitis", "induced", "by", "carbimazole", "(", "N", "omercazole", ").", "Two", "others", "had", "a", "mixed", "(", "cholestatic", "and", "cytolytic", ")", "hepatitis", "following", "carbimazole", "at", "Mount", "Sinai", "Hospital", "in", "New", "York", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 5, 6, 0, 0, 0, 2, 3, 0, 0, 1, 0, 1, 4, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1, 0, 7, 8, 8, 0, 9, 10, 0]
+},
+{
+    "original": ["We", "report", "the", "case", "of", "a", "woman", "complaining", "of", "dysphonia", "while", "she", "was", "treated", "by", "acitretin", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 0],
+    "transformed": ["We", "report", "the", "case", "of", "a", "woman", ",", "Lara", "Croft", ",", "complaining", "of", "dysphonia", "while", "she", "was", "treated", "by", "acitretin", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 0]
+},
+{
+    "original": ["The", "donor", "was", "a", "40", "-", "year", "-", "old", "female", ",", "first", "-", "time", "apheresis", "platelet", "donor", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "transformed": ["The", "donor", "was", "a", "40", "-", "year", "-", "old", "female", ",", "Natasha", "Romanoff", ",", "first", "-", "time", "apheresis", "platelet", "donor", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0]
+},
+{
+    "original": ["PATIENT", "(", "S", "):", "A", "36", "-", "year", "-", "old", "woman", "referred", "from", "the", "infertility", "clinic", "for", "blurred", "vision", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 2, 3, 0],
+    "transformed": ["PATIENT", "(", "S", "):", "A", "36", "-", "year", "-", "old", "woman", ",", "Wanda", "Maximoff", ",", "referred", "from", "the", "infertility", "clinic", "for", "blurred", "vision", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 2, 0, 0, 2, 3, 0]
+},
+{
+    "original": ["RESULT", "(", "S", "):", "A", "36", "-", "year", "-", "old", "Chinese", "woman", "developed", "central", "retinal", "vein", "occlusion", "after", "eight", "courses", "of", "CC", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 0, 0, 0, 0, 1, 0],
+    "transformed": ["RESULT", "(", "S", "):", "A", "36", "-", "year", "-", "old", "Chinese", "woman", ",", "Mulan", "Fa", ",", "developed", "central", "retinal", "vein", "occlusion", "after", "eight", "courses", "of", "CC", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 2, 3, 3, 0, 0, 0, 0, 1, 0]
+},
+{
+    "original": ["Prolonged", "elevation", "of", "plasma", "argatroban", "in", "a", "cardiac", "transplant", "patient", "with", "a", "suspected", "history", "of", "heparin", "-", "induced", "thrombocytopenia", "with", "thrombosis", "."],
+    "originalLabels": [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 2, 0],
+    "transformed": ["Prolonged", "elevation", "of", "plasma", "argatroban", "in", "a", "cardiac", "transplant", "patient", ",", "Tony", "Stark", ",", "with", "a", "suspected", "history", "of", "heparin", "-", "induced", "thrombocytopenia", "with", "thrombosis", "."],
+    "transformedLabels": [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 2, 0]
+},
+{
+    "original": ["The", "patient", "required", "massive", "transfusion", "support", "(", "55", "units", "of", "red", "blood", "cells", ",", "42", "units", "of", "fresh", "-", "frozen", "plasma", ",", "40", "units", "of", "cryoprecipitate", ",", "40", "units", "of", "platelets", ",", "and", "three", "doses", "of", "recombinant", "Factor", "VIIa", ")", "for", "severe", "intraoperative", "and", "postoperative", "bleeding", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 3, 0],
+    "transformed": ["The", "patient", ",", "Peter", "Parker", ",", "required", "massive", "transfusion", "support", "(", "55", "units", "of", "red", "blood", "cells", ",", "42", "units", "of", "fresh", "-", "frozen", "plasma", ",", "40", "units", "of", "cryoprecipitate", ",", "40", "units", "of", "platelets", ",", "and", "three", "doses", "of", "recombinant", "Factor", "VIIa", ")", "for", "severe", "intraoperative", "and", "postoperative", "bleeding", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 3, 0]
+},
+{
+    "original": ["A", "78", "-", "year", "-", "old", "with", "healed", "septal", "necrosis", "suffered", "a", "recurrent", "myocardial", "infarction", "of", "the", "anterior", "wall", "following", "the", "administration", "of", "isosorbide", "dinitrate", "5", "mg", "sublingually", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 0, 0, 0, 0],
+    "transformed": ["A", "78", "-", "year", "-", "old", ",", "Bruce", "Banner", ",", "with", "healed", "septal", "necrosis", "suffered", "a", "recurrent", "myocardial", "infarction", "of", "the", "anterior", "wall", "following", "the", "administration", "of", "isosorbide", "dinitrate", "5", "mg", "sublingually", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 2, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 0, 0, 0, 0]
+},
+{
+    "original": ["Three", "patients", "who", "had", "experienced", "neuroleptic", "-", "induced", "akathisia", "in", "the", "past", "reported", "that", "the", "symptoms", "of", "fluoxetine", "-", "induced", "akathisia", "were", "identical", ",", "although", "somewhat", "milder", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0],
+    "transformed": ["Three", "patients", ",", "Steve", "Rogers", ",", "Natasha", "Romanoff", ",", "and", "Clint", "Barton", ",", "who", "had", "experienced", "neuroleptic", "-", "induced", "akathisia", "in", "the", "past", "reported", "that", "the", "symptoms", "of", "fluoxetine", "-", "induced", "akathisia", "were", "identical", ",", "although", "somewhat", "milder", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 5, 6, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0]
+},
+{
+    "original": ["The", "patient", "described", "developed", "chronic", "active", "hepatitis", "after", "six", "months", "therapy", "with", "diclofenac", "sodium"],
+    "originalLabels": [0, 0, 0, 0, 2, 3, 3, 0, 0, 0, 0, 0, 1, 4],
+    "transformed": ["The", "patient", ",", "Tony", "Stark", ",", "described", "developed", "chronic", "active", "hepatitis", "after", "six", "months", "therapy", "with", "diclofenac", "sodium"],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 2, 3, 3, 0, 0, 0, 0, 0, 1, 4]
+},
+{
+    "original": ["Two", "patients", "with", "type", "II", "diabetes", "mellitus", "developed", "an", "acute", "hepatitis-like", "syndrome", "soon", "after", "initiation", "of", "glyburide", "therapy", "."],
+    "originalLabels": [0, 0, 0, 2, 3, 3, 3, 0, 0, 2, 3, 3, 0, 0, 0, 0, 1, 0, 0],
+    "transformed": ["Two", "patients", ",", "Peter", "Parker", "and", "Gwen", "Stacy", ",", "with", "type", "II", "diabetes", "mellitus", "developed", "an", "acute", "hepatitis-like", "syndrome", "soon", "after", "initiation", "of", "glyburide", "therapy", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 5, 6, 0, 0, 2, 3, 3, 3, 0, 0, 2, 3, 3, 0, 0, 0, 0, 1, 0, 0]
+},
+{
+    "original": ["The", "patient", "'", "s", "clinical", "course", "is", "described", "and", "correlated", "with", "initial", "urodynamic", "studies", "while", "on", "prazosin", "and", "subsequent", "studies", "while", "taking", "verapamil", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0],
+    "transformed": ["The", "patient", ",", "Diana", "Prince", "'", "s", "clinical", "course", "is", "described", "and", "correlated", "with", "initial", "urodynamic", "studies", "while", "on", "prazosin", "and", "subsequent", "studies", "while", "taking", "verapamil", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0]
+},
+{
+    "original": ["An", "allergic", "reaction", "consisting", "of", "angioneurotic", "edema", "secondary", "to", "continuous", "infusion", "5-fluorouracil", "occurred", "in", "a", "patient", "with", "recurrent", "carcinoma", "of", "the", "oral", "cavity", ",", "cirrhosis", ",", "and", "cisplatin", "-", "induced", "impaired", "renal", "function", "."],
+    "originalLabels": [0, 2, 3, 0, 0, 2, 3, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 2, 3, 3, 3, 3, 0, 2, 0, 0, 1, 0, 0, 2, 3, 3, 0],
+    "transformed": ["An", "allergic", "reaction", "consisting", "of", "angioneurotic", "edema", "secondary", "to", "continuous", "infusion", "5-fluorouracil", "occurred", "in", "a", "patient", ",", "Clark", "Kent", ",", "with", "recurrent", "carcinoma", "of", "the", "oral", "cavity", ",", "cirrhosis", ",", "and", "cisplatin", "-", "induced", "impaired", "renal", "function", "."],
+    "transformedLabels": [0, 2, 3, 0, 0, 2, 3, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 2, 3, 3, 3, 3, 0, 2, 0, 0, 1, 0, 0, 2, 3, 3, 0]
+},
+{
+    "original": ["Only", "2", "patients", "of", "our", "retrospective", "study", "experienced", "a", "mild", "or", "severe", "neutropenia", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0],
+    "transformed": ["Only", "2", "patients", ",", "Lara", "Croft", "and", "Nathan", "Drake", ",", "of", "our", "retrospective", "study", "experienced", "a", "mild", "or", "severe", "neutropenia", "."],
+    "transformedLabels": [0, 0, 0, 0, 5, 6, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0]
+},
+{
+    "original": ["A", "61", "-", "year", "-", "old", "man", "was", "treated", "with", "combination", "chemotherapy", "incorporating", "cisplatinum", ",", "etoposide", ",", "high", "-", "dose", "5-fluorouracil", "(", "2", ",", "250", "mg", "/", "m2", "/", "24", "hours", ")", "and", "folinic", "acid", "for", "an", "inoperable", "gastric", "adenocarcinoma", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 0, 0, 0, 2, 3, 0],
+    "transformed": ["A", "61", "-", "year", "-", "old", "man", ",", "John", "Wick", ",", "was", "treated", "with", "combination", "chemotherapy", "incorporating", "cisplatinum", ",", "etoposide", ",", "high", "-", "dose", "5-fluorouracil", "(", "2", ",", "250", "mg", "/", "m2", "/", "24", "hours", ")", "and", "folinic", "acid", "for", "an", "inoperable", "gastric", "adenocarcinoma", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 0, 0, 0, 2, 3, 0]
+},
+{
+    "original": ["CASE", "SUMMARY", ":", "A", "13", "-", "year", "-", "old", "boy", "was", "treated", "with", "ampicillin", "and", "gentamicin", "because", "of", "suspected", "septicemia", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 2, 0],
+    "transformed": ["CASE", "SUMMARY", ":", "A", "13", "-", "year", "-", "old", "boy", ",", "Harry", "Potter", ",", "was", "treated", "with", "ampicillin", "and", "gentamicin", "because", "of", "suspected", "septicemia", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 2, 0]
+},
+{
+    "original": ["The", "patient", "was", "treated", "with", "methylprednisolone", "and", "gradually", "improved", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+    "transformed": ["The", "patient", ",", "Frodo", "Baggins", ",", "was", "treated", "with", "methylprednisolone", "and", "gradually", "improved", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+},
+{
+    "original": ["The", "present", "report", "describes", "a", "case", "of", "cardiac", "arrest", "and", "subsequent", "death", "as", "a", "result", "of", "hyperkalaemia", "following", "the", "use", "of", "suxamethonium", "in", "a", "23", "-", "year", "-", "old", "Malawian", "woman", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "transformed": ["The", "present", "report", "describes", "a", "case", "of", "cardiac", "arrest", "and", "subsequent", "death", "as", "a", "result", "of", "hyperkalaemia", "following", "the", "use", "of", "suxamethonium", "in", "a", "23", "-", "year", "-", "old", "Malawian", "woman", ",", "Shuri", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5]
+},
+{
+    "original": ["We", "report", "on", "two", "fatal", "cases", "of", "accidental", "intrathecal", "vincristine", "instillation", "in", "a", "5", "-", "year", "old", "girl", "with", "recurrent", "acute", "lymphoblastic", "leucemia", "and", "a", "57", "-", "year", "old", "man", "with", "lymphoblastic", "lymphoma", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0],
+    "transformed": ["We", "report", "on", "two", "fatal", "cases", "of", "accidental", "intrathecal", "vincristine", "instillation", "in", "a", "5", "-", "year", "old", "girl", ",", "Luna", "Lovegood", ",", "with", "recurrent", "acute", "lymphoblastic", "leucemia", "and", "a", "57", "-", "year", "old", "man", ",", "Albus", "Dumbledore", ",", "with", "lymphoblastic", "lymphoma", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 2, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 2, 3, 0]
+},
+{
+    "original": ["The", "girl", "died", "seven", "days", ",", "the", "man", "four", "weeks", "after", "intrathecal", "injection", "of", "vincristine", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+    "transformed": ["The", "girl", ",", "Luna", "Lovegood", ",", "died", "seven", "days", ",", "the", "man", ",", "Albus", "Dumbledore", ",", "four", "weeks", "after", "intrathecal", "injection", "of", "vincristine", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+},
+{
+    "original": ["A", "patient", "who", "received", "antithymocyte", "globulin", "therapy", "for", "aplastic", "anemia", "due", "to", "D-penicillamine", "therapy", "is", "described", "."],
+    "originalLabels": [0, 0, 0, 0, 1, 4, 0, 0, 2, 3, 0, 0, 1, 0, 0, 0, 0],
+    "transformed": ["A", "patient", ",", "Bruce", "Banner", ",", "who", "received", "antithymocyte", "globulin", "therapy", "for", "aplastic", "anemia", "due", "to", "D-penicillamine", "therapy", "is", "described", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 1, 4, 0, 0, 2, 3, 0, 0, 1, 0, 0, 0, 0]
+},
+{
+    "original": ["We", "report", "a", "woman", "with", "coronary", "artery", "disease", "who", "developed", "a", "markedly", "prolonged", "QT", "interval", "and", "torsades", "de", "pointes", "(", "TdP", ")", "after", "taking", "ketoconazole", "for", "treatment", "of", "fungal", "infection", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 2, 3, 3, 0, 0, 0, 0, 2, 3, 3, 0, 2, 3, 3, 0, 2, 0, 0, 0, 1, 0, 0, 0, 2, 3, 0],
+    "transformed": ["We", "report", "a", "woman", ",", "Natasha", "Romanoff", ",", "with", "coronary", "artery", "disease", "who", "developed", "a", "markedly", "prolonged", "QT", "interval", "and", "torsades", "de", "pointes", "(", "TdP", ")", "after", "taking", "ketoconazole", "for", "treatment", "of", "fungal", "infection", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 5, 6, 0, 0, 2, 3, 3, 0, 0, 0, 0, 2, 3, 3, 0, 2, 3, 3, 0, 2, 0, 0, 0, 1, 0, 0, 0, 2, 3, 0]
+},
+{
+    "original": ["The", "patient", "'", "s", "symptoms", "improved", "slightly", "over", "the", "next", "few", "hours", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "transformed": ["The", "patient", ",", "Tony", "Stark", "'", "s", "symptoms", "improved", "slightly", "over", "the", "next", "few", "hours", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+},
+{
+    "original": ["RESULTS", ":", "A", "20", "-", "year", "-", "old", "male", "with", "schizophrenia", "developed", "a", "sudden", "onset", "of", "myocarditis", "after", "commencement", "of", "clozapine", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0],
+    "transformed": ["RESULTS", ":", "A", "20", "-", "year", "-", "old", "male", ",", "Bruce", "Wayne", ",", "with", "schizophrenia", "developed", "a", "sudden", "onset", "of", "myocarditis", "after", "commencement", "of", "clozapine", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0]
+},
+{
+    "original": ["FINDINGS", ":", "A", "28", "-", "year", "-", "old", "man", "suffering", "from", "idiopathic", "epilepsy", "with", "generalized", "seizures", "was", "treated", "with", "LEV", "(", "3000", "mg", ")", "added", "to", "valproate", "(", "VPA", ")(", "2000", "mg", ").", "Frequency", "of", "generalized", "tonic-clonic", "seizures", "increased", "from", "one", "per", "6", "months", "to", "two", "per", "month", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "transformed": ["FINDINGS", ":", "A", "28", "-", "year", "-", "old", "man", ",", "Clark", "Kent", ",", "suffering", "from", "idiopathic", "epilepsy", "with", "generalized", "seizures", "was", "treated", "with", "LEV", "(", "3000", "mg", ")", "added", "to", "valproate", "(", "VPA", ")(", "2000", "mg", ").", "Frequency", "of", "generalized", "tonic-clonic", "seizures", "increased", "from", "one", "per", "6", "months", "to", "two", "per", "month", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 2, 3, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+},
+
+
+
+{
+    "original": ["A", "63", "-", "year", "-", "old", "male", "experienced", "sudden", "diplopia", "after", "9", "weeks", "of", "administration", "of", "pegylated", "interferon", "(IFN)", "alpha-2b", "and", "ribavirin", "for", "chronic", "hepatitis", "C", "(", "CHC", ").", "Ophthalmologic", "examinations", "showed", "ptosis", "on", "the", "right", "upper", "lid", "and", "restricted", "right", "eye", "movement", "without", "any", "other", "neurological", "signs", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 4, 4, 4, 0, 1, 0, 2, 3, 3, 0, 2, 0, 0, 0, 0, 2, 3, 3, 3, 3, 3, 0, 2, 3, 3, 3, 0, 0, 0, 0, 0, 0],
+    "transformed": ["A", "63", "-", "year", "-", "old", "male", ",", "Tony", "Stark", ",", "experienced", "sudden", "diplopia", "after", "9", "weeks", "of", "administration", "of", "pegylated", "interferon", "(IFN)", "alpha-2b", "and", "ribavirin", "for", "chronic", "hepatitis", "C", "(", "CHC", ").", "Ophthalmologic", "examinations", "showed", "ptosis", "on", "the", "right", "upper", "lid", "and", "restricted", "right", "eye", "movement", "without", "any", "other", "neurological", "signs", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 4, 4, 4, 0, 1, 0, 2, 3, 3, 0, 2, 0, 0, 0, 0, 2, 3, 3, 3, 3, 3, 0, 2, 3, 3, 3, 0, 0, 0, 0, 0, 0]
+},
+
+{
+    "original": ["A", "case", "is", "reported", "of", "the", "hemolytic", "uremic", "syndrome", "(", "HUS", ")", "in", "a", "woman", "taking", "oral", "contraceptives", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 2, 3, 3, 0, 2, 0, 0, 0, 0, 0, 1, 4, 0],
+    "transformed": ["A", "case", "is", "reported", "of", "the", "hemolytic", "uremic", "syndrome", "(", "HUS", ")", "in", "a", "woman", ",", "Diana", "Prince", ",", "taking", "oral", "contraceptives", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 2, 3, 3, 0, 2, 0, 0, 0, 0, 0, 5, 6, 0, 0, 1, 4, 0]
+},
+{
+    "original": ["Two", "patients", "with", "signs", "of", "carbamazepine", "neurotoxicity", "after", "combined", "treatment", "with", "verapamil", "showed", "complete", "recovery", "after", "discontinuation", "of", "the", "calcium", "entry", "blocker", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 1, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+    "transformed": ["Two", "patients", ",", "Peter", "Parker", "and", "Gwen", "Stacy", ",", "with", "signs", "of", "carbamazepine", "neurotoxicity", "after", "combined", "treatment", "with", "verapamil", "showed", "complete", "recovery", "after", "discontinuation", "of", "the", "calcium", "entry", "blocker", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 5, 6, 0, 0, 0, 0, 1, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+},
+{
+    "original": ["We", "report", "the", "case", "of", "a", "young", "woman", "who", "suffered", "a", "cerebral", "infarction", "after", "taking", "a", "single", "oral", "dose", "of", "PPA"],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 0, 1],
+    "transformed": ["We", "report", "the", "case", "of", "a", "young", "woman", ",", "Wanda", "Maximoff", ",", "who", "suffered", "a", "cerebral", "infarction", "after", "taking", "a", "single", "oral", "dose", "of", "PPA"],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 0, 1]
+},
+{
+    "original": ["We", "report", "the", "case", "of", "a", "young", "woman", "who", "suffered", "a", "cerebral", "infarction", "after", "taking", "a", "single", "oral", "dose", "of", "PPA"],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 0, 1],
+    "transformed": ["We", "report", "the", "case", "of", "a", "young", "woman", ",", "Wanda", "Maximoff", ",", "who", "suffered", "a", "cerebral", "infarction", "after", "taking", "a", "single", "oral", "dose", "of", "PPA"],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 0, 1]
+},
+{
+    "original": ["In", "a", "patient", "with", "WPW", "syndrome", "and", "idiopathic", "dilated", "cardiomyopathy", ",", "intractable", "atrioventricular", "reentrant", "tachycardia", "(", "AVRT", ")", "was", "iatrogenically", "induced", "."],
+    "originalLabels": [0, 0, 0, 0, 2, 3, 0, 2, 3, 3, 0, 0, 2, 3, 3, 0, 2, 0, 0, 0, 0, 0],
+    "transformed": ["In", "a", "patient", ",", "Bruce", "Banner", ",", "with", "WPW", "syndrome", "and", "idiopathic", "dilated", "cardiomyopathy", ",", "intractable", "atrioventricular", "reentrant", "tachycardia", "(", "AVRT", ")", "was", "iatrogenically", "induced", "."],
+    "transformedLabels": [0, 0, 0, 0, 5, 6, 0, 0, 2, 3, 0, 2, 3, 3, 0, 0, 2, 3, 3, 0, 2, 0, 0, 0, 0, 0]
+},
+{
+    "original": ["A", "healthy", "17", "-", "year", "-", "old", "male", "received", "standard", "intermittent", "doses", "of", "pethidine", "via", "a", "patient", "-", "controlled", "analgesia", "(", "PCA", ")", "pump", "for", "management", "of", "postoperative", "pain", "control", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0],
+    "transformed": ["A", "healthy", "17", "-", "year", "-", "old", "male", ",", "Peter", "Parker", ",", "received", "standard", "intermittent", "doses", "of", "pethidine", "via", "a", "patient", "-", "controlled", "analgesia", "(", "PCA", ")", "pump", "for", "management", "of", "postoperative", "pain", "control", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0]
+},
+{
+    "original": ["A", "previously", "healthy", "child", "who", "developed", "acute", ",", "severe", ",", "rapidly", "progressive", "vanishing", "bile", "duct", "syndrome", "shortly", "after", "Stevens-Johnson", "syndrome", "is", "described", ";", "this", "was", "temporally", "associated", "with", "ibuprofen", "use", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 3, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+    "transformed": ["A", "previously", "healthy", "child", ",", "Peter", "Parker", ",", "who", "developed", "acute", ",", "severe", ",", "rapidly", "progressive", "vanishing", "bile", "duct", "syndrome", "shortly", "after", "Stevens-Johnson", "syndrome", "is", "described", ";", "this", "was", "temporally", "associated", "with", "ibuprofen", "use", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 3, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+},
+{
+    "original": ["This", "is", "a", "case", "report", "of", "euphoria", "and", "choreoathetoid", "movements", "both", "transiently", "induced", "by", "rapid", "adjustment", "to", "the", "selective", "mu", "-", "opioid", "receptor", "agonist", "methadone", "in", "an", "inpatient", "previously", "abusing", "heroine", "and", "cocaine"],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1],
+    "transformed": ["This", "is", "a", "case", "report", "of", "euphoria", "and", "choreoathetoid", "movements", "both", "transiently", "induced", "by", "rapid", "adjustment", "to", "the", "selective", "mu", "-", "opioid", "receptor", "agonist", "methadone", "in", "an", "inpatient", ",", "Tony", "Stark", ",", "previously", "abusing", "heroine", "and", "cocaine"],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 5, 6, 0, 0, 0, 1, 0, 1]
+},
+{
+    "original": ["We", "report", "a", "case", "of", "a", "living", "donor", "renal", "transplant", "recipient", "who", "developed", "cyclosporine", "-", "induced", "TMA", "that", "responded", "to", "the", "withdrawal", "of", "cyclosporine", "in", "conjunction", "with", "plasmapheresis", "and", "fresh", "frozen", "plasma", "replacement", "therapy", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "transformed": ["We", "report", "a", "case", "of", "a", "living", "donor", "renal", "transplant", "recipient", ",", "Bruce", "Banner", ",", "who", "developed", "cyclosporine", "-", "induced", "TMA", "that", "responded", "to", "the", "withdrawal", "of", "cyclosporine", "in", "conjunction", "with", "plasmapheresis", "and", "fresh", "frozen", "plasma", "replacement", "therapy", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+},
+{
+    "original": ["We", "report", "the", "case", "of", "a", "70", "-", "year", "-", "old", "hypertensive", "man", "with", "a", "solitary", "kidney", "and", "chronic", "renal", "insufficiency", "who", "developed", "two", "episodes", "of", "transient", "anuria", "after", "losartan", "administration", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 2, 3, 3, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 0],
+    "transformed": ["We", "report", "the", "case", "of", "a", "70", "-", "year", "-", "old", "hypertensive", "man", ",", "Tony", "Stark", ",", "with", "a", "solitary", "kidney", "and", "chronic", "renal", "insufficiency", "who", "developed", "two", "episodes", "of", "transient", "anuria", "after", "losartan", "administration", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 2, 3, 3, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 0]
+},
+{
+    "original": ["A", "45", "-", "year", "-", "old", "man", ",", "an", "admitted", "frequent", "cocaine", "user", ",", "presented", "to", "the", "Emergency", "Department", "(", "ED", ")", "on", "two", "separate", "occasions", "with", "a", "history", "of", "priapism", "after", "cocaine", "use", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 0],
+    "transformed": ["A", "45", "-", "year", "-", "old", "man", ",", "John", "Wick", ",", "an", "admitted", "frequent", "cocaine", "user", ",", "presented", "to", "the", "Emergency", "Department", "(", "ED", ")", "on", "two", "separate", "occasions", "with", "a", "history", "of", "priapism", "after", "cocaine", "use", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 0]
+},
+{
+    "original": ["We", "describe", "a", "70", "-", "year", "-", "old", "Hispanic", "woman", "who", "developed", "fulminant", "hepatic", "failure", "necessitating", "liver", "transplantation", "10", "weeks", "after", "conversion", "from", "simvastatin", "40", "mg", "/", "day", "to", "simvastatin", "10", "mg-ezetimibe", "40", "mg", "/", "day", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 4, 4, 4, 4, 0, 0, 0],
+    "transformed": ["We", "describe", "a", "70", "-", "year", "-", "old", "Hispanic", "woman", ",", "Elena", "Rodriguez", ",", "who", "developed", "fulminant", "hepatic", "failure", "necessitating", "liver", "transplantation", "10", "weeks", "after", "conversion", "from", "simvastatin", "40", "mg", "/", "day", "to", "simvastatin", "10", "mg-ezetimibe", "40", "mg", "/", "day", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 2, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 4, 4, 4, 4, 0, 0, 0]
+},
+
+{
+    "original": ["One", "of", "the", "twins", "developed", "complete", "heart", "block", "and", "dilated", "cardiomyopathy", "related", "to", "lopinavir/ritonavir", "therapy", ",", "a", "boosted", "protease", "-", "inhibitor", "agent", ",", "while", "the", "other", "twin", "developed", "mild", "bradycardia", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 2, 3, 0, 2, 3, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0],
+    "transformed": ["One", "of", "the", "twins", ",", "Luke", "Skywalker", ",", "developed", "complete", "heart", "block", "and", "dilated", "cardiomyopathy", "related", "to", "lopinavir/ritonavir", "therapy", ",", "a", "boosted", "protease", "-", "inhibitor", "agent", ",", "while", "the", "other", "twin", ",", "Leia", "Skywalker", ",", "developed", "mild", "bradycardia", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 2, 3, 0, 2, 3, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 2, 0]
+},
+
+{
+    "original": ["Angiosarcoma", "of", "the", "liver", "occurred", "in", "a", "76", "-", "year", "-", "old", "man", "who", "had", "been", "treated", "for", "a", "well", "-", "differentiated", "adenocarcinoma", "of", "the", "liver", "with", "diethylstilbestrol", "for", "13", "years", "."],
+    "originalLabels": [2, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 3, 0, 1, 0, 0, 0, 0],
+    "transformed": ["Angiosarcoma", "of", "the", "liver", "occurred", "in", "a", "76", "-", "year", "-", "old", "man", ",", "Bruce", "Wayne", ",", "who", "had", "been", "treated", "for", "a", "well", "-", "differentiated", "adenocarcinoma", "of", "the", "liver", "with", "diethylstilbestrol", "for", "13", "years", "."],
+    "transformedLabels": [2, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 3, 0, 1, 0, 0, 0, 0]
+},
+
+{
+    "original": ["One", "patient", "showed", "no", "recovery", "of", "later", "waves", "and", "a", "delayed", "profound", "sensorineural", "hearing", "loss", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 0],
+    "transformed": ["One", "patient", ",", "Peter", "Parker", ",", "showed", "no", "recovery", "of", "later", "waves", "and", "a", "delayed", "profound", "sensorineural", "hearing", "loss", "."],
+    "transformedLabels": [0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 0]
+},
+
+{
+    "original": ["A", "61", "-", "year", "-", "old", "Japanese", "man", "with", "nephrotic", "syndrome", "due", "to", "focal", "segmental", "glomerulosclerosis", "was", "initially", "responding", "well", "to", "steroid", "therapy", "."],
+    "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 2, 3, 3, 0, 0, 0, 0, 0, 1, 0, 0],
+    "transformed": ["A", "61", "-", "year", "-", "old", "Japanese", "man", ",", "Hiroshi", "Tanaka", ",", "with", "nephrotic", "syndrome", "due", "to", "focal", "segmental", "glomerulosclerosis", "was", "initially", "responding", "well", "to", "steroid", "therapy", "."],
+    "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 0, 0, 2, 3, 0, 0, 2, 3, 3, 0, 0, 0, 0, 0, 1, 0, 0]
+},
+{
+  "original": ["METHODS", ":", "We", "present", "the", "first", "case", "report", "of", "a", "woman", "with", "hyperthyroidism", "treated", "with", "propylthiouracil", "in", "whom", "a", "syndrome", "of", "pericarditis", ",", "fever", ",", "and", "glomerulonephritis", "developed", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 2, 0, 0],
+  "transformed": ["METHODS", ":", "We", "present", "the", "first", "case", "report", "of", "a", "woman", "with", "hyperthyroidism", "treated", "with", "propylthiouracil", "in", "whom", "a", "syndrome", "of", "pericarditis", ",", "fever", ",", "and", "glomerulonephritis", "developed", "at", "Massachusetts", "General", "Hospital", "in", "Boston", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 2, 0, 0, 7, 8, 8, 0, 9, 0]
+},
+{
+  "original": ["50", "mg", "/", "kg", ")", "was", "given", "to", "10", "cancer", "patients", "whose", "pain", "was", "unrelieved", "by", "morphine", "in", "a", "randomized", ",", "double", "-", "blind", ",", "crossover", ",", "double", "-", "dose", "study", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "transformed": ["50", "mg", "/", "kg", ")", "was", "given", "to", "10", "cancer", "patients", "whose", "pain", "was", "unrelieved", "by", "morphine", "in", "a", "randomized", ",", "double", "-", "blind", ",", "crossover", ",", "double", "-", "dose", "study", "at", "Mayo", "Clinic", "in", "Rochester", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 8, 0, 9, 0]
+},
+{
+  "original": ["RESULTS", ":", "A", "25", "-", "year", "-", "old", "woman", "with", "Graves'", "disease", "had", "a", "febrile", "illness", "and", "evidence", "of", "pericarditis", ",", "which", "was", "confirmed", "by", "biopsy", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 2, 3, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0],
+  "transformed": ["RESULTS", ":", "A", "25", "-", "year", "-", "old", "woman", "with", "Graves'", "disease", "had", "a", "febrile", "illness", "and", "evidence", "of", "pericarditis", ",", "which", "was", "confirmed", "by", "biopsy", "at", "Johns", "Hopkins", "Hospital", "in", "Baltimore", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 2, 3, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 7, 8, 8, 0, 9, 0]
+},
+{
+  "original": ["Significant", "increases", "in", "drowsiness", "were", "reported", "in", "patients", "treated", "with", "ketamine", "in", "both", "groups", "and", "were", "more", "marked", "with", "ketamine", "0", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+  "transformed": ["Significant", "increases", "in", "drowsiness", "were", "reported", "in", "patients", "treated", "with", "ketamine", "in", "both", "groups", "and", "were", "more", "marked", "with", "ketamine", "0", "at", "Cleveland", "Clinic", "in", "Ohio", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 7, 8, 0, 9, 0]
+},
+{
+  "original": ["A", "significant", "difference", "in", "MMSE", "was", "observed", "at", "T30", "in", "patients", "who", "received", "0", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "transformed": ["A", "significant", "difference", "in", "MMSE", "was", "observed", "at", "T30", "in", "patients", "who", "received", "0", "at", "Massachusetts", "General", "Hospital", "in", "Boston", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 8, 8, 0, 9, 0]
+},
+{
+  "original": ["Every", "patient", "was", "screened", "for", "testosterone", "and", "451", "were", "screened", "for", "prolactin", "on", "the", "basis", "of", "low", "sexual", "desire", ",", "gynecomastia", "or", "testosterone", "less", "than", "4", "ng", "./", "ml", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+  "transformed": ["Every", "patient", "was", "screened", "for", "testosterone", "and", "451", "were", "screened", "for", "prolactin", "on", "the", "basis", "of", "low", "sexual", "desire", ",", "gynecomastia", "or", "testosterone", "less", "than", "4", "ng", "./", "ml", "at", "Mayo", "Clinic", "in", "Rochester", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 7, 8, 0, 9, 0]
+},
+{
+  "original": ["Prolactin", "results", "were", "compared", "with", "those", "of", "a", "previous", "personal", "cohort", "of", "1", ",", "340", "patients", "with", "erectile", "dysfunction", "and", "systematic", "prolactin", "determination", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0],
+  "transformed": ["Prolactin", "results", "were", "compared", "with", "those", "of", "a", "previous", "personal", "cohort", "of", "1", ",", "340", "patients", "with", "erectile", "dysfunction", "and", "systematic", "prolactin", "determination", "at", "Johns", "Hopkins", "Hospital", "in", "Baltimore", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0, 7, 8, 8, 0, 9, 0]
+},
+{
+  "original": ["This", "study", "investigated", "propofol", "injection", "pain", "in", "patients", "undergoing", "ambulatory", "anaesthesia", "."],
+  "originalLabels": [0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0],
+  "transformed": ["This", "study", "investigated", "propofol", "injection", "pain", "in", "patients", "undergoing", "ambulatory", "anaesthesia", "at", "Cleveland", "Clinic", "in", "Ohio", "."],
+  "transformedLabels": [0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 7, 8, 0, 9, 0]
+},
+{
+  "original": ["In", "a", "randomized", ",", "double", "-", "blind", "trial", ",", "90", "women", "were", "allocated", "to", "receive", "one", "of", "three", "treatments", "prior", "to", "induction", "of", "anaesthesia", "with", "propofol", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+  "transformed": ["In", "a", "randomized", ",", "double", "-", "blind", "trial", ",", "90", "women", "were", "allocated", "to", "receive", "one", "of", "three", "treatments", "prior", "to", "induction", "of", "anaesthesia", "with", "propofol", "at", "Massachusetts", "General", "Hospital", "in", "Boston", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 7, 8, 8, 0, 9, 0]
+},
+{
+  "original": ["In", "a", "randomized", ",", "double", "-", "blind", "trial", ",", "90", "women", "were", "allocated", "to", "receive", "one", "of", "three", "treatments", "prior", "to", "induction", "of", "anaesthesia", "with", "propofol", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+  "transformed": ["In", "a", "randomized", ",", "double", "-", "blind", "trial", ",", "90", "women", "were", "allocated", "to", "receive", "one", "of", "three", "treatments", "prior", "to", "induction", "of", "anaesthesia", "with", "propofol", "at", "Massachusetts", "General", "Hospital", "in", "Boston", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 7, 8, 8, 0, 9, 0]
+},
+{
+  "original": ["Patients", "in", "Group", "C", "received", "2", "ml", "normal", "saline", ",", "Group", "L", ",", "2", "ml", ",", "lidocaine", "2", "%(", "40", "mg", ")", "and", "Group", "T", ",", "2", "ml", "thiopentone", "2", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+  "transformed": ["Patients", "in", "Group", "C", "received", "2", "ml", "normal", "saline", ",", "Group", "L", ",", "2", "ml", ",", "lidocaine", "2", "%(", "40", "mg", ")", "and", "Group", "T", ",", "2", "ml", "thiopentone", "2", "at", "Mayo", "Clinic", "in", "Rochester", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 7, 8, 0, 9, 0]
+},
+{
+  "original": ["A", "control", "group", "was", "included", "for", "comparison", "with", "the", "lower", "dose", "range", "of", "glycopyrrolate", "and", "atropine", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0],
+  "transformed": ["A", "control", "group", "was", "included", "for", "comparison", "with", "the", "lower", "dose", "range", "of", "glycopyrrolate", "and", "atropine", "at", "Johns", "Hopkins", "Hospital", "in", "Baltimore", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 7, 8, 8, 0, 9, 0]
+},
+{
+  "original": ["A", "patient", "who", "allegedly", "consumed", "100", "tablets", "of", "an", "over", "-", "the", "-", "counter", "analgesic", "containing", "sodium", "acetylsalicylate", ",", "caffeine", ",", "and", "acetaminophen", "displayed", "no", "significant", "CNS", "stimulation", "despite", "the", "presence", "of", "175", "micrograms", "of", "caffeine", "per", "mL", "of", "serum", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+  "transformed": ["A", "patient", "who", "allegedly", "consumed", "100", "tablets", "of", "an", "over", "-", "the", "-", "counter", "analgesic", "containing", "sodium", "acetylsalicylate", ",", "caffeine", ",", "and", "acetaminophen", "displayed", "no", "significant", "CNS", "stimulation", "despite", "the", "presence", "of", "175", "micrograms", "of", "caffeine", "per", "mL", "of", "serum", "at", "Massachusetts", "General", "Hospital", "in", "Boston", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 7, 8, 8, 0, 9, 0]
+},
+{
+  "original": ["In", "patients", "with", "unstable", "angina", ",", "flestolol", "infusion", "was", "found", "to", "be", "safe", "and", "effective", "in", "controlling", "chest", "pain", "."],
+  "originalLabels": [0, 0, 0, 2, 3, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0],
+  "transformed": ["In", "patients", "with", "unstable", "angina", ",", "flestolol", "infusion", "was", "found", "to", "be", "safe", "and", "effective", "in", "controlling", "chest", "pain", "at", "Cleveland", "Clinic", "in", "Ohio", "."],
+  "transformedLabels": [0, 0, 0, 2, 3, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 7, 8, 0, 9, 0]
+},
+{
+  "original": ["Fifty", "-", "two", "patients", "suffering", "from", "intractable", "tinnitus", "entered", "this", "therapeutic", "trial", ",", "but", "only", "nine", "finished", "all", "five", "courses", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "transformed": ["Fifty", "-", "two", "patients", "suffering", "from", "intractable", "tinnitus", "entered", "this", "therapeutic", "trial", ",", "but", "only", "nine", "finished", "all", "five", "courses", "at", "Mayo", "Clinic", "in", "Rochester", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 8, 0, 9, 0]
+},
+{
+  "original": ["In", "one", "patient", ",", "the", "tinnitus", "was", "almost", "completely", "abolished", ",", "but", "in", "all", "the", "nine", "patients", "the", "decompensated", "tinnitus", "changed", "to", "a", "compensated", "one", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0],
+  "transformed": ["In", "one", "patient", ",", "the", "tinnitus", "was", "almost", "completely", "abolished", ",", "but", "in", "all", "the", "nine", "patients", "the", "decompensated", "tinnitus", "changed", "to", "a", "compensated", "one", "at", "Johns", "Hopkins", "Hospital", "in", "Baltimore", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 7, 8, 8, 0, 9, 0]
+},
+{
+  "original": ["PATIENTS", "AND", "METHODS", ":", "The", "randomized", "sample", "consisted", "of", "234", "euthymic", "men", "who", "were", "receiving", "some", "type", "of", "SSRI", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+  "transformed": ["PATIENTS", "AND", "METHODS", ":", "The", "randomized", "sample", "consisted", "of", "234", "euthymic", "men", "who", "were", "receiving", "some", "type", "of", "SSRI", "at", "Massachusetts", "General", "Hospital", "in", "Boston", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 7, 8, 8, 0, 9, 0]
+},
+{
+  "original": ["The", "men", "were", "randomly", "assigned", "to", "bupropion", "SR", "(", "150", "mg", "twice", "daily", ",", "117", ")", "or", "placebo", "(", "twice", "daily", ",", "117", ")", "for", "12", "weeks", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "transformed": ["The", "men", "were", "randomly", "assigned", "to", "bupropion", "SR", "(", "150", "mg", "twice", "daily", ",", "117", ")", "or", "placebo", "(", "twice", "daily", ",", "117", ")", "for", "12", "weeks", "at", "Cleveland", "Clinic", "in", "Ohio", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 8, 0, 9, 0]
+},
+{
+  "original": ["01", ").", "Men", "who", "received", "bupropion", "had", "a", "significant", "increase", "in", "the", "total", "IIEF", "score", "(", "54", "."],
+  "originalLabels": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "transformed": ["01", ").", "Men", "who", "received", "bupropion", "had", "a", "significant", "increase", "in", "the", "total", "IIEF", "score", "(", "54", "at", "Mayo", "Clinic", "in", "Rochester", "."],
+  "transformedLabels": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 8, 0, 9, 0]
+}
+]
