@@ -78,8 +78,8 @@ Intelligent multi-document relevance mapping using:
 
 ### Evaluation Metrics
 
-- **Recall@5** - Whether any relevant document appears in top 5 results
-- **MRR@10** - Mean Reciprocal Rank at 10 results (first relevant document position)
+- **Recall@3** - Whether any relevant document appears in top 3 results
+- **MRR@3** - Mean Reciprocal Rank at 3 results (first relevant document position)
 - **Sensitivity Drops** - Performance degradation comparing clean vs PHI-augmented documents
 - **Visualization** - Dynamic axis scaling with 6-decimal precision for micro-differences
 
@@ -135,8 +135,8 @@ The evaluation generates:
 
   ```
   === BM25 ===
-  Clean   - Recall@5: X.XXX, MRR@10: X.XXX
-  PHI     - Recall@5: X.XXX, MRR@10: X.XXX
+  Clean   - Recall@3: X.XXX, MRR@10: X.XXX
+  PHI     - Recall@3: X.XXX, MRR@10: X.XXX
   Drop    - Recall Δ: 0.XXXXXX, MRR Δ: 0.XXXXXX
   ```
 
